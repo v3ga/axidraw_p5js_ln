@@ -102,7 +102,7 @@ function createScene(name)
 	}
 	else if (name == "cosinus-city")
 	{
-		eye = new Vector(0, 0, 10);
+		eye = new Vector(0.01, 0, 10);
 		center = new Vector(0, 0, 0);
 		up = new Vector(0, 0, 1);
 		fovy = 100.0;
